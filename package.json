@@ -1,10 +1,19 @@
 {
   "name": "smart-mjml",
-  "private": true,
-  "version": "1.0.0",
+  "version": "0.2.0",
   "files": [
     "lib"
   ],
+  "keywords": [
+    "mjml",
+    "mjml-react",
+    "mjml-vue"
+  ],
+  "author": "m-Ryan",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Easy-Email-Pro/smart-mjml.git"
+  },
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "types": "lib/typings/index.d.ts",

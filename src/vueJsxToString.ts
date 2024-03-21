@@ -1,6 +1,10 @@
 import { isArray, isUndefined } from "lodash";
 import xmlFormat from "xml-formatter";
-import { VNode, isVNode } from "vue";
+import type { VNode } from "vue";
+
+function isVNode(value: any): value is VNode {
+  return value ? value.__v_isVNode === true : false;
+}
 
 export const vueJsxToString = (
   node: VNode,
@@ -31,6 +35,7 @@ export const renderNode = (
     ) => string | null;
   }
 ) => {
+  console.log(isVNode);
   if (!isVNode(node)) {
     return node;
   }

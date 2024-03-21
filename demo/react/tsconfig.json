@@ -21,8 +21,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "mjml-browser": ["./node_modules/@types/mjml"],
-      "smart-mjml": ["../../"]
+      "mjml-browser": ["./node_modules/@types/mjml"]
+      // "smart-mjml": ["../../"]
     }
   },
   "include": ["src"],

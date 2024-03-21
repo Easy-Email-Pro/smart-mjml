@@ -1,9 +1,9 @@
 import { isArray, isString, get, isUndefined } from "lodash";
-import React from "react";
+import type { ReactElement } from "react";
 import xmlFormat from "xml-formatter";
 
 export const reactJsxToString = (
-  node: React.ReactElement,
+  node: ReactElement,
   params?: {
     helper?: (
       type: string,
@@ -22,7 +22,7 @@ export const reactJsxToString = (
 };
 
 const renderNode = (
-  node: React.ReactElement,
+  node: ReactElement,
   params?: {
     helper?: (
       type: string,

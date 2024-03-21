@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "start": "vite --config vite.dev.config.ts",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -11,10 +12,12 @@
   "dependencies": {
     "@types/mjml": "^4.7.4",
     "liquidjs": "^10.10.1",
+    "lodash": "^4.17.21",
     "mjml-browser": "^4.15.3",
     "monaco-editor": "^0.47.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "smart-mjml": "^0.2.0",
     "vite-plugin-monaco-editor": "^1.1.0"
   },
   "devDependencies": {
