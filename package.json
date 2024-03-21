@@ -1,0 +1,36 @@
+{
+  "name": "smart-mjml",
+  "private": true,
+  "version": "1.0.0",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "types": "lib/typings/index.d.ts",
+  "scripts": {
+    "dev": "cd demo/react && npm run dev",
+    "build": "vite build && npm run typings",
+    "typings": "tsc --declaration --emitDeclarationOnly --project tsconfig.json"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/mjml": "^4.7.4",
+    "@types/node": "^20.11.30",
+    "xml-formatter": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "lodash": "^4.17.21",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vue": "^3.4.21"
+  }
+}

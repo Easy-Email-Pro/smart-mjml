@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "types": ["vite/client", "node"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": false,
+    "module": "ESNext",
+    "outDir": "lib/typings",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "include": ["./src"]
+}
