@@ -1,5 +1,7 @@
 # Smart MJML
 
+The easiest way to edit MJML in React/Vue.
+
 Smart MJML is a library that provides TypeScript intelligence hints and checks, making editing MJML simpler.
 
 <img
